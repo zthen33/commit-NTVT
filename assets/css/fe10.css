@@ -1,0 +1,279 @@
+* {
+      padding: 0px;
+      margin: 0px;
+      font-family: "Roboto", sans-serif;
+      box-sizing: border-box;
+}
+
+body {
+      background: linear-gradient(to right, #000, #808080);
+}
+
+.logo {
+      margin-top: 20px;
+      width: 150px;
+      height: 150px;
+      cursor: pointer;
+}
+
+.logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+#header {
+      position: relative;
+      top: -96px;
+      height: 46px;
+      width: 80%;
+      margin: 0px auto;
+}
+
+#nav>li>a {
+      color: #FFBF00;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+
+#nav li a {
+      padding: 5px 10px;
+      text-decoration: none;
+      display: block;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color: #808080;
+}
+
+#nav>li {
+      line-height: 46px;
+      display: inline-block;
+      position: relative;
+      padding: 0px 20px;
+}
+
+#nav li {
+      list-style: none;
+}
+
+#nav .subnav {
+      display: none;
+      min-width: 115px;
+      position: absolute;
+      background: Gray;
+      border-radius: 10px;
+      box-shadow: 0 0 0px rgba(255, 255, 255, 0.3);
+}
+
+#nav .subnav:hover {
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 13pt;
+      font-weight: bold;
+      background-color: #BEBEBE;
+}
+
+#nav .subnav a {
+      color: yellow;
+      line-height: 38px;
+      padding: 0px 12px;
+}
+
+#nav li:hover .subnav {
+      display: block
+}
+
+#nav .down {
+      font-size: 14px;
+}
+
+.login {
+      float: right;
+      line-height: 46px;
+}
+
+.login button {
+      padding: 10px 20px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      font-size: 13pt;
+      font-weight: bold;
+      background-color: #FFD700;
+      cursor: pointer;
+}
+
+.login button:hover {
+      background-color: rgb(246, 48, 48);
+}
+
+
+#slide {
+      background: url(../img/banner.jpg) top center / cover no-repeat;
+      padding-top: 20%;
+      margin: auto 10%;
+      margin-top: -30px;
+}     
+
+#slide img {
+      margin-top: -60px;
+      width: 100%;
+      height: 85%;
+      object-fit: hidden;
+      border-radius: 4px;
+}
+
+#list_container {
+      height: 300px;
+      width: 15%;
+      margin-top: 50px;
+      margin-left: 138px;
+      color: yellow;
+      padding: 10px 10px;
+      float: left;
+      border-radius: 5px
+}
+
+#list_container h2 {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+}
+
+#list_container li {
+      list-style: none;
+      padding: 6px 10px;
+      font-size: 13px;
+}
+
+#list_container li:hover {
+      color:  orange;
+      font-style: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      background-color: aliceblue;
+      border-radius: 10px
+}
+
+.card {
+      width: 263px;
+      height: 300px;
+      float: left;
+      margin: 78px 20px -72px 20px;
+      cursor: pointer;
+      position: relative;
+}
+
+.card img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+}
+
+.card a {
+      font-weight: bold;
+      text-decoration: none;
+      color: yellow;
+      display: inline-block;
+      margin-bottom: 3px;
+}
+
+.card p {
+      font-style: italic;
+      color: white;
+}
+
+.card button {
+      position: absolute;
+      bottom: 20px;
+      right: 5px;
+      padding: 5px;
+      border: none;
+      outline: none;
+      background-color: yellow;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;}
+
+.card a:hover {
+      color: white;
+}
+
+.card img:hover {
+      opacity: 0.5;
+}
+
+.card button:hover {
+      background: #FF6347;
+}
+
+.footer {
+      padding: 40px 0;
+      margin-top: 700px;
+      background-color: #fff;
+}
+
+.footer .footer-logo {
+      text-align: center;
+      padding-bottom: 25px;
+      color: #4b4c4d;
+}
+
+.footer .footer-logo a {
+      font-size: 24px;
+      color: inherit;
+      border: 1px solid #ccc;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 8px;
+      opacity: 0.75;
+}
+
+.footer .footer-logo a:hover {
+      opacity: 0.9;
+}
+
+.footer ul {
+      margin-top: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 0;
+      text-align: center;
+}
+
+.footer ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8;
+}
+
+.footer ul li {
+      display: inline-block;
+      padding: 0 15px;
+}
+
+.footer ul li a:hover {
+      opacity: 1;
+}
+
+.footer .copyright {
+      margin: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+}
